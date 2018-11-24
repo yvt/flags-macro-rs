@@ -108,7 +108,7 @@ macro_rules! __containing_type {
         compile_error!("The path prefix (`A::` of `flags![A::{...}]`) must not be empty.")
     };
     ($ns:ident::) => {$ns};
-    ($ns:ident::$($rest:ident::)*) => {$ns::__containing_type!($($rest::)*)}
+    ($ns:ident::$($rest:ident::)*) => {$ns$(::$rest)*}
 }
 
 /// Emits an array expression containing zero or more values defined within

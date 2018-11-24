@@ -1,6 +1,6 @@
 [package]
 name = "flags-macro"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["yvt <i@yvt.jp>"]
 description = "Provides a helper macro for writing bitflags."
 keywords = ["bitflags", "bitflag", "enum", "flag", "macros"]

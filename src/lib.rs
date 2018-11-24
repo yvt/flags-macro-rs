@@ -200,3 +200,17 @@ where
 {
     type Set = <T as BitOr>::Output;
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn trailing_separators() {
+        mod values {
+            pub const A: u32 = 1;
+            pub const B: u32 = 2;
+        }
+
+        assert_eq!(set_array![values::{A | B |}], [values::A, values::B]);
+        assert_eq!(set_array![values::{A, B,}], [values::A, values::B]);
+    }
+}

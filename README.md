@@ -1,6 +1,6 @@
 # flags-macro
 
-[<img src="https://docs.rs/flags-macro-rs/badge.svg" alt="docs.rs">](https://docs.rs/flags-macro-rs/)
+[<img src="https://docs.rs/flags-macro/badge.svg" alt="docs.rs">](https://docs.rs/flags-macro/)
 
 This crate provides a convenient macro `flags` for constructing bitflags.
 It's designed to be compatible with [`bitflags`] and [`enumflags`] but works

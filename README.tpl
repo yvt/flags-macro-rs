@@ -1,6 +1,6 @@
 # {{crate}}
 
-[<img src="https://docs.rs/flags-macro-rs/badge.svg" alt="docs.rs">](https://docs.rs/flags-macro-rs/)
+[<img src="https://docs.rs/flags-macro/badge.svg" alt="docs.rs">](https://docs.rs/flags-macro/)
 
 {{readme}}
 

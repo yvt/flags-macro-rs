@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["yvt <i@yvt.jp>"]
 description = "Provides a helper macro for writing bitflags."
 keywords = ["bitflags", "bitflag", "enum", "flag", "macros"]
-categories = ["no_std"]
+categories = ["no-std"]
 license = "CC0-1.0"
 
 [dev-dependencies]

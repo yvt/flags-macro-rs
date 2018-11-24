@@ -6,6 +6,7 @@ description = "Provides a helper macro for writing bitflags."
 keywords = ["bitflags", "bitflag", "enum", "flag", "macros"]
 categories = ["no-std"]
 license = "CC0-1.0"
+repository = "https://github.com/yvt/flags-macro-rs"
 
 [dev-dependencies]
 bitflags = "1.0.4"

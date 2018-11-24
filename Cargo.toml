@@ -7,6 +7,7 @@ keywords = ["bitflags", "bitflag", "enum", "flag", "macros"]
 categories = ["no-std"]
 license = "CC0-1.0"
 repository = "https://github.com/yvt/flags-macro-rs"
+readme = "README.md"
 
 [dev-dependencies]
 bitflags = "1.0.4"
